@@ -1,0 +1,90 @@
+body{
+   
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.container .table{
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    position: relative; 
+    padding: 10px;
+    margin: 20px;
+    
+}
+#cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout:fixed;
+    border:.1rem solid rgba(0,0,0,.1);
+    position: relative;
+    margin: 25px 0;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    
+}
+#cart-container table thead{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: white; 
+}
+#cart-container table thead th{ 
+   background-color: #e84393;
+   border: none;
+   padding: 10px 0;
+   
+}
+
+
+.container .info{
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    position: relative; 
+    padding: 10px;
+    font-size: 15px;
+}
+
+.container .info .totali h2{
+    color: #e84393;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.container .info .totali{
+    margin-bottom: 10px;
+}
+.container .info .totali .box{
+    margin-top: 10px;
+    border-radius: .5rem;
+    border: solid rgba(0,0,0,.1);
+}
+
+.cart-product-img{
+    width:200px;
+}
+
+td{
+    text-align: center;
+    padding:10px;
+    font-size: 15px;
+}
+
+.remove-btn{
+    background-color: #e84393;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
