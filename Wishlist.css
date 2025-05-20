@@ -1,0 +1,41 @@
+.bg-dark{
+    background-color: red;
+}
+
+.w-100{
+    width:100%;
+}
+
+.w-200{
+    width: 200px;
+}
+
+.mt-50{
+    margin-top: 100px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.wishlist-table{
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    text-align: center;
+    font-size: 15px;
+}
+
+.wishlist-table tr{
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.wishlist-table a{
+    background-color: #e84393;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
